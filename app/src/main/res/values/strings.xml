@@ -1,0 +1,78 @@
+<resources>
+    <!--Pagina principal-->
+    <string name="app_name">Calculadora SRR</string>
+    <string name="home_greeting">Calculadora de Santiago Ruiz Ramírez</string>
+    <string name="home_subtitle">Toca una tarjeta para realizar el calculo deseado.</string>
+    <string name="desc_navigate">Ir</string>
+
+    <string name="title_op1">Interés Simple y Compuesto</string>
+    <string name="desc_op1">Calcula el rendimiento de una inversión a lo largo del tiempo.</string>
+    <string name="title_op2">Conversión de Temperatura</string>
+    <string name="desc_op2">Convierte a Celsius, Fahrenheit y Kelvin.</string>
+    <string name="title_op3">Volumen de Prisma Rectangular</string>
+    <string name="desc_op3">Calcula el volumen a partir de la base, altura y profundidad.</string>
+    <string name="title_op4">Área de un Trapecio</string>
+    <string name="desc_op4">Obtén el área a partir de la base mayor, base menor y altura.</string>
+
+    <!--__________________________________________________________________________-->
+    <!--Para interes compuesto y simple-->
+    <string name="title_interest">Interés Simple y Compuesto</string>
+    <string name="type_simple">Simple</string>
+    <string name="type_compound">Compuesto</string>
+    <string name="label_capital">Capital Inicial (P)</string>
+    <string name="label_rate">Tasa de interés anual (%) (r)</string>
+    <string name="label_time">Tiempo en años (t)</string>
+    <string name="btn_calculate">Calcular Resultado</string>
+    <string name="error_invalid_input">Ingresa un número válido y mayor a 0</string>
+    <!--Resultados-->
+    <string name="result_title">Desarrollo y Resultado</string>
+    <string name="formula_simple">Fórmula: M = P[1 + (r/100) * t]</string>
+    <string name="formula_compound">Fórmula: M = P[1 + (r/100)]^t</string>
+    <string name="result_amount">Monto Total (M): $%1$s</string>
+    <string name="result_interest">Interés Generado (I): $%1$s</string>
+
+    <!--__________________________________________________________________________-->
+    <!--Para temperatura-->
+    <string name="title_temperature">Conversión de Temperatura</string>
+    <string name="label_temperature">Ingresa la temperatura</string>
+    <string name="label_from">De:</string>
+    <string name="label_to">A:</string>
+    <string name="error_abs_c">El cero absoluto es -273.15 °C. Valores menores no son posibles.</string>
+    <string name="error_abs_f">El cero absoluto es -459.67 °F. Valores menores no son posibles.</string>
+    <string name="error_abs_k">El cero absoluto es 0 K. Valores menores no son posibles.</string>
+    <string name="error_invalid_temp">Ingresa un número válido.</string>
+    <!-- Resultados-->
+    <string name="result_temp_title">Desarrollo y Resultado</string>
+    <string name="result_temp_format">%1$s %2$s equivalen a:</string>
+    <string name="result_temp_final">%1$s %2$s</string>
+    <string name="formula_same_unit">Misma unidad</string>
+
+    <!--__________________________________________________________________________-->
+    <!--Para volumen prisma rectangular-->
+    <string name="title_prism">Prisma Rectangular</string>
+    <string name="label_width">Ancho (w)</string>
+    <string name="label_height">Altura (h)</string>
+    <string name="label_depth">Profundidad (l)</string>
+    <string name="error_invalid_dim">Las dimensiones deben ser números mayores a 0.</string>
+    <!--Resultados-->
+    <string name="result_prism_title">Desglose de Fórmula</string>
+    <string name="step_1_prism">Fórmula: V = w × h × l</string>
+    <string name="step_2_prism">Sustitución: V = %1$s × %2$s × %3$s</string>
+    <string name="step_3_prism">Volumen Total = %1$s u³</string>
+    <string name="desc_img_prisma">Imagen de Prisma 3D</string>
+
+    <!--__________________________________________________________________________-->
+    <!--Para area trapecio-->
+    <string name="title_trapezoid">Área del Trapecio</string>
+    <string name="label_base_major">Base Mayor (B)</string>
+    <string name="label_base_minor">Base Menor (b)</string>
+    <string name="label_height_trap">Altura (h)</string>
+    <string name="error_invalid_dim_trap">Las dimensiones deben ser números mayores a 0.</string>
+    <!--Resultados-->
+    <string name="result_trap_title">Desglose de Fórmula</string>
+    <string name="step_1_trap">Fórmula: A = ((B + b) / 2) × h</string>
+    <string name="step_2_trap">Sustitución: A = ((%1$s + %2$s) / 2) × %3$s</string>
+    <string name="step_3_trap">Área Total = %1$s u²</string>
+    <string name="desc_img_trapecio">Imagen del Trapecio</string>
+
+</resources>

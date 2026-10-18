@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">SRR Calculator</string>
+    <string name="home_greeting">Santiago Ruiz Ramírez Calculator</string>
+    <string name="home_subtitle">Tap a card to perform the desired calculation.</string>
+    <string name="desc_navigate">Go to</string>
+    <string name="title_op1">Simple and Compound Interest</string>
+    <string name="desc_op1">Calculate the return on an investment over time.</string>
+    <string name="title_op2">Temperature Conversion</string>
+    <string name="desc_op2">Convert to Celsius, Fahrenheit, and Kelvin.</string>
+    <string name="title_op3">Rectangular Prism Volume</string>
+    <string name="desc_op3">Calculate the volume from the base, height, and depth.</string>
+    <string name="title_op4">Area of a Trapezoid</string>
+    <string name="desc_op4">Get the area from the major base, minor base, and height.</string>
+    <!--__________________________________________________________________________-->
+
+    <string name="title_interest">Simple and Compound Interest</string>
+    <string name="type_simple">Simple</string>
+    <string name="type_compound">Compound</string>
+    <string name="label_capital">Principal (P)</string>
+    <string name="label_rate">Annual interest rate (%) (r)</string>
+    <string name="label_time">Time in years (t)</string>
+    <string name="btn_calculate">Calculate Result</string>
+    <string name="error_invalid_input">Enter a valid number greater than 0</string>
+    <string name="result_title">Process and Result</string>
+    <string name="formula_simple">Formula: M = P[1 + (r/100) * t]</string>
+    <string name="formula_compound">Formula: M = P[1 + (r/100)]^t</string>
+    <string name="result_amount">Total Amount (M): $%1$s</string>
+    <string name="result_interest">Interest Generated (I): $%1$s</string>
+    <!--__________________________________________________________________________-->
+
+    <string name="title_temperature">Temperature Conversion</string>
+    <string name="label_temperature">Enter the temperature</string>
+    <string name="label_from">From:</string>
+    <string name="label_to">To:</string>
+    <string name="error_abs_c">Absolute zero is -273.15 °C. Lower values are not possible.</string>
+    <string name="error_abs_f">Absolute zero is -459.67 °F. Lower values are not possible.</string>
+    <string name="error_abs_k">Absolute zero is 0 K. Lower values are not possible.</string>
+    <string name="error_invalid_temp">Enter a valid number.</string>
+    <string name="result_temp_title">Process and Result</string>
+    <string name="result_temp_format">%1$s %2$s is equivalent to:</string>
+    <string name="result_temp_final">%1$s %2$s</string>
+    <string name="formula_same_unit">Same unit</string>
+
+    <!--__________________________________________________________________________-->
+    <string name="title_prism">Rectangular Prism</string>
+    <string name="label_width">Width (w)</string>
+    <string name="label_height">Height (h)</string>
+    <string name="label_depth">Depth (l)</string>
+    <string name="error_invalid_dim">Dimensions must be numbers greater than 0.</string>
+    <string name="result_prism_title">Formula Breakdown</string>
+    <string name="step_1_prism">Formula: V = w × h × l</string>
+    <string name="step_2_prism">Substitution: V = %1$s × %2$s × %3$s</string>
+    <string name="step_3_prism">Total Volume = %1$s u³</string>
+    <string name="desc_img_prisma">Imagen de Prisma 3D</string>
+
+    <!--__________________________________________________________________________-->
+    <string name="title_trapezoid">Trapezoid Area</string>
+    <string name="label_base_major">Major Base (B)</string>
+    <string name="label_base_minor">Minor Base (b)</string>
+    <string name="label_height_trap">Height (h)</string>
+    <string name="error_invalid_dim_trap">Dimensions must be numbers greater than 0.</string>
+    <string name="result_trap_title">Formula Breakdown</string>
+    <string name="step_1_trap">Formula: A = ((B + b) / 2) × h</string>
+    <string name="step_2_trap">Substitution: A = ((%1$s + %2$s) / 2) × %3$s</string>
+    <string name="step_3_trap">Total Area = %1$s u²</string>
+    <string name="desc_img_trapecio">Imagen del Trapecio</string>
+
+</resources>
